@@ -17,8 +17,6 @@
             course2.viewRate = 3000000;
 
             Course course3 = new Course();
-            // aşağıda oluşturduğumuz Course classından bir obje oluşturduk
-            // oluştuduğumuz objenin propertylerini tanımlayalım
             course3.courseName = "Python";
             course3.teacher = "Veli Bakırtaş";
             course3.viewRate = 15000;
@@ -37,7 +35,7 @@
     }
 
     // C# veri tipleri de aslında birer classtır. Oluşturulan veriler bu classların objeleridir. Diğer bir deyişle c#'ta tüm classlar bir veri tipidir
-    // Bizim oluşturacağımız classlara ait objeler üretirken de standart veri tiplerinde ürettiğimiz gibi üreteceğiz
+    // Bizim oluşturacağımız classlara ait objeler üretirken de referans veri tiplerinde ürettiğimiz gibi üreteceğiz
     class Course
     {
         public string courseName { get; set; }

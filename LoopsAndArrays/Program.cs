@@ -21,7 +21,7 @@ class Program
         }
 
         for (int i = 0; i < 10; i++)
-        // 1 den başlayarak ikinci terimdeki şart sağlandığı sürece devam eder
+        // 0 dan başlayarak ikinci terimdeki şart sağlandığı sürece devam eder
         // i++ birer birer artmasını sağlar
         {
             Console.WriteLine(i);

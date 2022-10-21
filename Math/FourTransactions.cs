@@ -99,7 +99,7 @@ namespace Math
             return result;
         }
         // params keywordü fonksiyonlara atanacak parametre sayısı belli olmadığında kullanılır
-        // implamantasyoda gönderilen parametreleri bir array içinde tutar. Dolayısıyla iterator bir yapı söz konusudur
+        // implamantasyoda gönderilen parametreleri bir array içinde tutar. Dolayısıyla iterable bir yapı söz konusudur
         // params parametreler de parametrelerin sonunda belirtilmelidir
     }
 }
