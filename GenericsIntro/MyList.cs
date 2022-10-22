@@ -37,5 +37,11 @@ namespace GenericsIntro
             items[items.Length-1] = item;
             // son olarak eklemek istediğimiz elemanı arrayin son elemanı olarak ekledik. eleman sayısı-1:son index
         }
+
+        // arraydeki eleman sayısnı döndüren bir metot yazalım
+        public int Count 
+        { 
+            get { return items.Length; } 
+        }
     }
 }
